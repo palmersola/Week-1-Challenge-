@@ -1,13 +1,16 @@
+/* Universal Styling */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Body Background */
 body {
   background-color: #d9dcd6;
 }
 
+/* Page Heading Styling */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -34,20 +37,18 @@ nav ul {
   list-style-type: none;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* URL Styling */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
+/* Main Image Styling */
 .hero {
   height: 800px;
   width: 100%;
@@ -57,21 +58,13 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
+/* Left Side Card Styling */
 main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
+
 main div {
   margin-bottom: 20px;
   padding: 50px;
@@ -85,11 +78,26 @@ main img {
   max-height: 200px;
 }
 
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
 main h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Paragraph Styling */
+p {
+  font-size: 16px;
+}
+
+/* Right Side Card Styling */
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -117,6 +125,7 @@ aside img {
   max-width: 150px;
 }
 
+/* Footer Styling */
 footer {
   padding: 30px;
   clear: both;
