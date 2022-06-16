@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -16,13 +16,13 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+header h1 {
   color: #d9dcd6;
   display: inline-block;
   font-size: 48px;
 }
 
-.header div {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -30,11 +30,11 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+nav ul {
   list-style-type: none;
 }
 
-.header div ul li {
+nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -67,13 +67,30 @@ p {
   margin-left: 25px;
 }
 
-.content {
+main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
+main div {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
 
-.benefits {
+main img {
+  max-height: 200px;
+}
+
+main h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+aside {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -84,41 +101,23 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-contents {
+aside div {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-contents h3 {
+aside h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-contents img {
+aside img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.about {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.about img {
-  max-height: 200px;
-}
-
-.about h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -126,6 +125,6 @@ p {
   text-align: center;
 }
 
-.footer h4 {
+footer h4 {
   font-size: 20px;
 }
